@@ -1,18 +1,10 @@
-function getAreaOfCircle(radius){
-    return Math.PI * Math.pow(radius, 2);
-}
+let getAreaOfCircle = (radius) => Math.PI * Math.pow(radius, 2);
 
-function getCircumferenceOfCircle(radius){
-    return 2 * Math.PI * radius;
-}
+let getCircumferenceOfCircle = (radius) => 2 * Math.PI * radius;
 
-function getAreaOfSquare(side){
-    return side * side;
-}
+let getAreaOfSquare = (side) => side * side;
 
-function getAreaOfTriangle(base, height){
-    return (base * height)/2;
-}
+let getAreaOfTriangle = (base, height) => (base * height)/2;
 
 
 console.log(getAreaOfCircle(10));
